@@ -1,0 +1,68 @@
+.landing-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.landing-page .buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-signup {
+    background-color: #4CAF50; /* Green */
+}
+
+.btn-login {
+    background-color: #008CBA; /* Blue */
+}
+
+.status-message {
+    margin-top: 20px;
+    color: green; /* Change as needed */
+    font-size: 16px;
+}
+
+.income-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap between cards */
+    justify-content: center;
+    padding: 20px;
+}
+
+.income-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px; /* Adjust card width */
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.income-card > div {
+    margin-bottom: 10px;
+}
+
+.income-card button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.income-card button:last-child {
+    background-color: #dc3545;
+}
